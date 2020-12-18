@@ -1,0 +1,12 @@
+1011  brew install hashicorp/tap/terraform
+ 1012  sudo chown -R mpotapov /usr/local/share/zsh /usr/local/share/zsh/site-functions
+ 1013  chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+ 1014  brew install hashicorp/tap/terraform
+ 1015  brew upgrade hashicorp/tap/terraform
+ 1016  terraform -help
+ 1017  cd Desktop
+ 1018  cd CC_Lab6
+ 1020  nano main.tf
+ 1030  terraform init 
+ 1031  terraform plan
+ 1032  terraform apply
